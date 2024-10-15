@@ -1,0 +1,51 @@
+
+
+.header {
+  height: 150px;
+  background: #1F2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 100px;
+  margin: 0px;
+  margin-top: 0px;
+  margin-left: 0px;  
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 900;
+  font-family: Roboto, sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-list li {
+  flex-shrink: 1;
+  flex-grow: 0;
+}
+
+.hero-two {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Roboto, sans-serif;
+  color: white;
+}
+
+/* end navigation section */
