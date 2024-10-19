@@ -21,7 +21,7 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   font-size: 28px;
-  margin-left: 400px;
+  margin-left: 300px;
   margin-top: 40px;
 }
 
@@ -73,7 +73,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  margin-left: 200px;
+  margin-left: 100px;
   color: #f9faf8;
   font-size: 48px;
 }
@@ -82,7 +82,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  margin-left: 200px;
+  margin-left: 100px;
   margin-top: 20px;
   color: #f9faf8;
 }
@@ -107,7 +107,7 @@ body {
   font-size: 18px;
   cursor: pointer;
   margin-top: 20px;
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 .button:hover {
