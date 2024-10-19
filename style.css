@@ -190,6 +190,86 @@ ul {
 /* quote section */
 .quote-section {
   background-color: #e5e7eb;
-  height: 300px;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  max-width: 800px;
+}
+
+.jeffmills {
+  font-size: 32px;
+  font-style: italic;
+  color: #1f2937;
+  margin: 0;
+}
+
+/* Add this if you want to style the attribution separately */
+.jeffmills::after {
+  content: "- Jeff Mills";
+  display: block;
+  text-align: right;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
 }
 /* end quote section */
+
+/* call-to-action section */
+.cta-section {
+  background-color: white;
+}
+
+.cta-section .cta {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.cta-section .cta-content {
+  border-radius: 10px;
+  background-color: #3882F6;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #f9faf8;
+}
+
+.cta-content p {
+  font-size: 18px;
+  color: #f9faf8;
+}
+
+.cta-content button {
+  background-color: #3882F6;
+  color: #f9faf8;
+  font-weight: 900;
+  border: 2px solid;
+  color: #f9faf8;
+  padding: 8px 24px;
+  border-radius: 6px;
+}
+
+.cta-content button:hover {
+  cursor: pointer;
+}
+/* end call-to-action section */
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+/* footer section */
